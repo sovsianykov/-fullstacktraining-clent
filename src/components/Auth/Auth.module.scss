@@ -1,0 +1,37 @@
+.auth  {
+  max-width: 400px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position:relative ;
+  .form {
+    position: fixed;
+    padding-left: 10px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #3F51B5;
+    color: cornsilk;
+    input {
+      margin: 10px 0  ;
+      display: block;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 5px;
+      outline-color: #3F51B5;
+
+      &:focus {
+        background: #fff;
+        outline-color: cornsilk;
+      }
+    }
+    .btn {
+      margin: 10px;
+      color:#fff;
+      background: chocolate;
+    }
+  }
+
+}
